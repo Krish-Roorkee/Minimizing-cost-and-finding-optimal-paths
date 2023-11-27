@@ -1,1 +1,3 @@
 # Minimizing-cost-and-finding-optimal-paths
+My approach to this problem is to move each truck from a location to another and each location maintain certain variables..the current time at that location..the goods it picks up or drops at that location. Thus, we would be able to check the constraints and if the constraints are not satisfied, we set the cost to a very high value. We perform this activity for all buses and we define a path for each bus. Now, I will try to apply optimization techinques such as PSO, 
+For the CO2 emissions case, for electric vehicles we may define a parameter e, that reduces the cost of all the paths taken by E.V by a factor of e.(e>1) 
